@@ -384,6 +384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 699664346}
   - component: {fileID: 699664345}
+  - component: {fileID: 699664347}
   m_Layer: 0
   m_Name: SplashManager
   m_TagString: Untagged
@@ -418,6 +419,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &699664347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699664344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317fcbebe6218d745ad9479d645f7690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SplashController
 --- !u!1 &1001134633
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,8 +497,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280352556
-  m_fontColor: {r: 0.17154431, g: 1, b: 0.12641507, a: 1}
+    rgba: 4278255615
+  m_fontColor: {r: 1, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
